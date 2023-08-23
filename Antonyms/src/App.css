@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+body{
+  padding-top: env(safe-area-inset-top);
+
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -28,10 +32,6 @@
   cursor: pointer;
   border-radius: 4px; /* gives rounded corners to buttons */
   transition: background-color 0.3s ease; /* smooth transition for hover effects */
-}
-
-button:hover {
-  border-color: #646cff;
 }
 
 .button:hover {
