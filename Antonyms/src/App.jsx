@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="Title">
-        <h1>Antonyms</h1>
+        <h1>Antonyms (alpha)</h1>
       </div>
       <Day />
       <MakeBoard />
