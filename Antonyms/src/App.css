@@ -10,6 +10,7 @@
 
 body{
   padding-top: env(safe-area-inset-top);
+  background-color: #242424;
 
 }
 .grid {
