@@ -65,11 +65,11 @@ function Day(){
 }
 
 const antonymsPairs = [
-  ["sparse", "dense"],
-  ["simple", "complex"],
-  ["smooth", "coarse"],
-  ["blunt", "sharp"],
-  ["FREE SQUARE"],
+  ["frugal", "careless"],
+  ["altruistic", "selfish"],
+  ["practical", "foolish"],
+  ["rebel", "complacent"],
+  ["holy"],
 ];
 
 
