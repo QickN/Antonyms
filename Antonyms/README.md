@@ -1,8 +1,26 @@
-# React + Vite
+# Antonyms
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React and Vite word-pair game prototype.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Players select two words at a time and try to match antonym pairs before running out of
+attempts. The project is intentionally small so the game logic is easy to inspect.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Verification
+
+```bash
+npm run lint
+npm run build
+```
+
+## Deployment
+
+The `deploy` script publishes the built app with `gh-pages`.
